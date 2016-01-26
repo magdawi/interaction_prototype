@@ -1,7 +1,10 @@
 @media only screen and (max-width: 500px) {
-	body{
+	html, body{
 		background-color: #EFEFEF;
 		font-family: 'Lato', sans-serif;
+		height: 100%;
+		margin: 0;
+	    padding: 0;
 	}
 
 	.content {
@@ -66,5 +69,12 @@
 		display: inline-block;
 		height: 75px;
 		margin: 2%;
+	}
+
+	/*map*/
+	#map {
+		height: 100%;
+		top: 0;
+		left: 0;
 	}
 }
