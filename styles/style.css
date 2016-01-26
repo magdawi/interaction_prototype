@@ -169,6 +169,42 @@ h2{
 		padding: 5px;
 		border-radius: 5px;
 	}
+
+	/*contacts*/
+	.contact-field{
+		color: #000;
+		margin: 10px 0;
+	}
+
+	.contact-attr{
+		display: inline-block;
+		vertical-align: middle;
+		text-align: left;
+	}
+
+	img.contact-attr{
+		height:90px;
+		margin-right:4%;
+	}
+
+	.contact-attr .tel-number{
+		color: #008587;
+	}
+
+	#contact-text{
+		width: 50%;
+		border: 1px solid #FFF;
+		border-radius: 5px;
+		padding: 10px 0;
+		margin-top:20px;
+	}
+
+	#contact-search{
+		background-color: rgba(255,255,255,0.4);
+		padding: 5px;
+		border-radius: 5px;
+		margin-top:20px;
+	}
 }
 
 
