@@ -41,6 +41,35 @@
 		min-width: 30px;
 	}
 
+	.footer{
+		background-color: #008587;
+		color: #FFF;
+		height:75px;
+		width: 100%;
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		text-align: center;
+		padding-top:5px;
+	}
+
+	.footer img{
+		height: 50px;
+		width: auto;
+	}
+
+	.footer .footer-big img{
+		height: 70px;
+		width: auto;
+	}
+
+	.footer .footer-item{
+		display: inline-block;
+		vertical-align: middle;		
+		margin: 0 4%;
+		min-width: 30px;
+	}
+
 	/*startscreen*/
 	#startscreen{
 		background-color: #008587;
@@ -73,8 +102,9 @@
 
 	/*map*/
 	#map {
-		height: 100%;
-		top: 0;
+		height: 80%;
+		top: 50px;
 		left: 0;
+		right:0;
 	}
 }
