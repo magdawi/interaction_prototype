@@ -4,15 +4,14 @@ body{
 }
 
 .content {
-	margin: 50px auto;
-	width: 90%;
+	margin: 20px auto;
+	text-align: center;
 }
 
 /*startscreen*/
 #startscreen{
 	background-color: #008587;
 	color: #FFF;
-	text-align: center;
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -21,21 +20,20 @@ body{
 }
 
 #startscreen img{
+	margin-top: 30px;
 	width: 150px;
 }
 
 /*menu1*/
-#menu1{
-	text-align: center;
-	position: absolute;
-	top: 0;
-	left: 0;
-	right: 0;
-	bottom: 0;
+#menu1 .menu-icons{
+	display: inline-block;
+	height: 100px;
+	margin: 20px 0;
 }
 
-#menu1 .menu-icons{
-	display: block;
-	height: 150px;
-	margin: 25px;
+/*menu2*/
+#menu2 .menu2-icons{
+	display: inline-block;
+	height: 75px;
+	margin: 5px 10px;
 }
