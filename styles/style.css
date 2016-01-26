@@ -1,39 +1,70 @@
-body{
-	background-color: #EFEFEF;
-	font-family: 'Lato', sans-serif;
-}
+@media only screen and (max-width: 500px) {
+	body{
+		background-color: #EFEFEF;
+		font-family: 'Lato', sans-serif;
+	}
 
-.content {
-	margin: 20px auto;
-	text-align: center;
-}
+	.content {
+		margin: 20% auto;
+		text-align: center;
+	}
 
-/*startscreen*/
-#startscreen{
-	background-color: #008587;
-	color: #FFF;
-	position: absolute;
-	top: 0;
-	left: 0;
-	right: 0;
-	bottom: 0;
-}
+	a{
+		text-decoration: none;
+		color: #FFF;
+	}
 
-#startscreen img{
-	margin-top: 30px;
-	width: 150px;
-}
+	.header{
+		background-color: #008587;
+		color: #FFF;
+		height:45px;
+		width: 100%;
+		position: absolute;
+		top: 0;
+		left: 0;
+		text-align: center;
+		padding-top:5px;
+	}
 
-/*menu1*/
-#menu1 .menu-icons{
-	display: inline-block;
-	height: 100px;
-	margin: 20px 0;
-}
+	.header img{
+		height: 35px;
+		width: auto;
+	}
 
-/*menu2*/
-#menu2 .menu2-icons{
-	display: inline-block;
-	height: 75px;
-	margin: 5px 10px;
+	.header .header-item{
+		display: inline-block;
+		vertical-align: middle;		
+		margin: 0 2%;
+		min-width: 30px;
+	}
+
+	/*startscreen*/
+	#startscreen{
+		background-color: #008587;
+		color: #FFF;
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+	}
+
+	#startscreen img{
+		margin-top: 30px;
+		width: 150px;
+	}
+
+	/*menu1*/
+	#menu1 .menu-icons{
+		display: inline-block;
+		height: 100px;
+		margin: 20px 0;
+	}
+
+	/*menu2*/
+	#menu2 .menu2-icons{
+		display: inline-block;
+		height: 75px;
+		margin: 2%;
+	}
 }
