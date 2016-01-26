@@ -3,6 +3,41 @@ body{
 	font-family: 'Lato', sans-serif;
 }
 
+header, footer{
+	background-color: #008587;
+	color: #FFF;
+	text-align: center;
+	height:110px;
+	margin-top: -20px;
+}
+
+footer img{
+	margin: 10px 0 0 10px;
+}
+
+.send{
+  margin: 0 0 0 220px;
+}
+
+.textinsert{
+	float:left;
+	margin-left: 30px;
+	margin-top: 10px;
+}
+
+h2{
+	font-weight: bold;
+	padding-top: 30px;
+}
+
+#top img{
+	display: inline-block;
+	padding-top: 30px;
+	width:50px;
+
+}
+
+
 .content {
 	margin: 50px auto;
 	width: 90%;
@@ -38,4 +73,27 @@ body{
 	display: block;
 	height: 150px;
 	margin: 25px;
+}
+
+/*chat*/
+.chatimg{
+	width: 80px;
+	display: inline-block;
+}
+
+.chatimgbubble{
+	width: 250px;
+	display: inline-block;
+
+}
+
+.chatimgred{
+	margin-right: -20px;
+	width: 80px;
+	display: inline-block;
+
+}
+
+.table-responsive{
+	border: none !important;
 }
