@@ -12,42 +12,6 @@
 		text-align: center;
 	}
 
-/*
-header, footer{
-	background-color: #008587;
-	color: #FFF;
-	text-align: center;
-	height:110px;
-	margin-top: -20px;
-}
-
-footer img{
-	margin: 10px 0 0 10px;
-}
-
-.send{
-  margin: 0 0 0 220px;
-}
-
-.textinsert{
-	float:left;
-	margin-left: 30px;
-	margin-top: 10px;
-}
-
-h2{
-	font-weight: bold;
-	padding-top: 30px;
-}
-
-#top img{
-	display: inline-block;
-	padding-top: 30px;
-	width:50px;
-
-}
-*/
-
 	a{
 		text-decoration: none;
 		color: #FFF;
@@ -104,6 +68,14 @@ h2{
 		vertical-align: middle;		
 		margin: 0 4%;
 		min-width: 30px;
+	}
+
+	.footer .map-text{
+		width: 70%;
+	}
+
+	.footer .map-logo img{
+		height:50px;
 	}
 
 	/*startscreen*/
