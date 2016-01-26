@@ -1,0 +1,48 @@
+html, body{
+	background-color: #EFEFEF;
+	font-family: 'Lato', sans-serif;
+	height: 100%;
+	margin: 0;
+    padding: 0;
+}
+
+.content {
+	margin: 20px auto;
+	text-align: center;
+}
+
+/*startscreen*/
+#startscreen{
+	background-color: #008587;
+	color: #FFF;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+
+#startscreen img{
+	margin-top: 30px;
+	width: 150px;
+}
+
+/*menu1*/
+#menu1 .menu-icons{
+	display: inline-block;
+	height: 100px;
+	margin: 20px 0;
+}
+
+/*menu2*/
+#menu2 .menu2-icons{
+	display: inline-block;
+	height: 75px;
+	margin: 5px 10px;
+}
+
+#map {
+	height: 100%;
+	top: 0;
+	left: 0;
+}
