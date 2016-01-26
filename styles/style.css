@@ -1,0 +1,23 @@
+body{
+	background-color: #EFEFEF;
+	font-family: 'Lato', sans-serif;
+}
+
+#startscreen{
+	background-color: #008587;
+	color: #FFF;
+	text-align: center;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+
+#startscreen .content {
+	margin: 100px auto;
+}
+
+#startscreen .content img{
+	width: 150px;
+}
